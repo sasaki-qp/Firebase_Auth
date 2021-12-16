@@ -1,0 +1,42 @@
+name: sns_auth_demo
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # state management
+  flutter_riverpod: ^1.0.3
+
+  # firebase packages
+  firebase_auth: ^3.3.3
+  firebase_core: ^1.10.5
+
+  # signin method pckages
+  twitter_login: ^4.1.0-dev
+  google_sign_in: ^5.2.1
+  github_sign_in: 0.0.5-dev.4
+  flutter_facebook_auth: ^3.5.7
+
+  # utils
+  gap: ^2.0.0
+  hive: ^2.0.4
+  get_it: ^7.2.0
+  bot_toast: ^4.0.1
+  hive_flutter: ^1.1.0
+  flutter_dotenv: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">demo_auth_app</string>
+    <string name="facebook_app_id">1573670242972427</string>
+    <string name="fb_login_protocol_scheme">fb1573670242972427</string>
+</resources>
